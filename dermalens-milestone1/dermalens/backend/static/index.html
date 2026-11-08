@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DermaLens: cosmetic ingredient classifier</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="DermaLens home"><span class="logo" aria-hidden="true">◎</span>DermaLens</a>
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search products or brands…" autocomplete="off" aria-label="Search products or brands">
+      <ul id="suggest" class="suggest" hidden></ul>
+    </div>
+    <nav class="nav" aria-label="Main">
+      <a href="#/analyze">Analyzer</a>
+      <a href="#/soon/Compare">Compare</a>
+      <a href="#/soon/Dupes">Dupes</a>
+      <a href="#/soon/Routine">Routine</a>
+      <a href="#/ingredients">Ingredients</a>
+      <a href="#/soon/Concerns">Concerns</a>
+      <a href="#/soon/Login">Login</a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <aside id="drawer" class="drawer" hidden aria-label="Ingredient details"></aside>
+  <footer class="site-footer">DermaLens is an educational project, not medical advice. Always patch-test new products. Demo products, prices and links are fictional sample data.</footer>
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>
